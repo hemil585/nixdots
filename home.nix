@@ -21,6 +21,10 @@
     gnome-tweaks
     fluent-icon-theme
     bibata-cursors
+    btop
+    yt-dlp
+    tradingview
+    gcc
   ];
 
   home.file = {};
@@ -43,6 +47,7 @@
     ./modules/vim.nix
     ./modules/fzf.nix
     ./modules/kitty.nix
+    ./modules/btop.nix
   ];
 
   programs.home-manager.enable = true;
