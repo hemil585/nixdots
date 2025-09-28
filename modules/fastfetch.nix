@@ -60,13 +60,13 @@
         }
         {
           type = "cpu";
-          format = "{1} ({3}) @ {7} GHz";
+          format = "{1} ({3}) @ {7}";
           key = " ├  ";
           keyColor = "yellow";
         }
         {
           type = "gpu";
-          format = "{1} {2} @ {12} GHz";
+          format = "{1} {2} @ {12}";
           key = " ├ 󰢮 ";
           keyColor = "yellow";
         }
@@ -78,6 +78,11 @@
         {
           type = "memory";
           key = " ├  ";
+          keyColor = "yellow";
+        }
+        {
+          type = "packages";
+          key = " ├  ";
           keyColor = "yellow";
         }
         {

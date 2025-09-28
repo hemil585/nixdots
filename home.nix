@@ -25,6 +25,7 @@
     yt-dlp
     tradingview
     gcc
+    brave
   ];
 
   home.file = {};

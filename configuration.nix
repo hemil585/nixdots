@@ -82,6 +82,7 @@
   vim 
   wireshark
   gnomeExtensions.blur-my-shell
+  kdePackages.okular
   ];
 
   programs.wireshark = {
