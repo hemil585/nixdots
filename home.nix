@@ -26,6 +26,9 @@
     tradingview
     gcc
     brave
+    vlc
+    libreoffice
+    telegram-desktop
   ];
 
   home.file = {};
