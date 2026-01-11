@@ -10,6 +10,9 @@
 
   home.packages = with pkgs; [
     git
+    fastfetch
+    fzf
+    eza
   ];
 
   imports = [
@@ -17,6 +20,7 @@
     ./modules/zsh.nix
     ./modules/bash.nix
     ./modules/aliases.nix
+    ./modules/kitty.nix
   ];
 
   # Let Home Manager install and manage itself.
