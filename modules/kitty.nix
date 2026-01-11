@@ -54,9 +54,11 @@
       color16 = "#3ddbd9";
       color17 = "#ff7eb6";
 
-      font_family = ".";
-      font_size = "13.0";
+      # /usr/local/share/fonts/m/ -> local/share/fonts/m/
+      font_family = "MonoLisa";  
+      font_size = "15.5";
       cursor_shape = "beam";
+      cursor_blink_interval = 0;
 
       background_opacity = "0.95";
       background_blur = "10";

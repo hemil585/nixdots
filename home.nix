@@ -22,6 +22,7 @@
     ./modules/aliases.nix
     ./modules/kitty.nix
     ./modules/fzf.nix
+    ./modules/fastfetch.nix
   ];
 
   # Let Home Manager install and manage itself.

@@ -1,7 +1,7 @@
 { ... }:
 {
   programs.fzf = {
-    enable = true;
+    enable = false;
     enableZshIntegration = true;
     defaultOptions = [
       "--height=5"
