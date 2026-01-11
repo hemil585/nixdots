@@ -15,6 +15,8 @@
   imports = [
     ./modules/fish.nix
     ./modules/zsh.nix
+    ./modules/bash.nix
+    ./modules/aliases.nix
   ];
 
   # Let Home Manager install and manage itself.
