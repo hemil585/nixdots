@@ -8,7 +8,7 @@
 
   networking.hostName = "nixos";
 
-  environment.shells = with pkgs; [ fish ];
+  environment.shells = with pkgs; [ fish zsh ];
   users.defaultUserShell = pkgs.fish;
   programs.fish.enable = true;
 
