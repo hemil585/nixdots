@@ -21,6 +21,7 @@
     ./modules/bash.nix
     ./modules/aliases.nix
     ./modules/kitty.nix
+    ./modules/fzf.nix
   ];
 
   # Let Home Manager install and manage itself.
