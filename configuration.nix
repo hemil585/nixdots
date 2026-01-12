@@ -35,6 +35,20 @@
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
 
+    services.keyd = {
+    enable = true;
+
+    keyboards.default = {
+      ids = [ "0001:0001:d6a1a789" ];
+
+      settings = {
+        main = {
+          "leftshift+leftmeta+f23" = "rightcontrol";
+        };
+      };
+    };
+  };
+
   virtualisation.docker = {
   	enable = true;
 	  daemon.settings.features.cdi = true;
