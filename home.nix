@@ -15,6 +15,15 @@
     eza
     vscode
     nodejs
+    postman
+    wl-clipboard
+    fluent-icon-theme
+    bibata-cursors
+    yt-dlp
+    gcc
+    vlc
+    libreoffice
+    telegram-desktop
   ];
 
   imports = [

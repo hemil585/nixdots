@@ -14,6 +14,8 @@
 
   networking.networkmanager.enable = true;
 
+  hardware.bluetooth.enable = true;
+
   time.timeZone = "Asia/Kolkata";
 
   i18n.defaultLocale = "en_IN";
