@@ -13,6 +13,7 @@
     fastfetch
     fzf
     eza
+    vscode
   ];
 
   imports = [
