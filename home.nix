@@ -14,6 +14,7 @@
     fzf
     eza
     vscode
+    nodejs
   ];
 
   imports = [
@@ -24,6 +25,10 @@
     ./modules/kitty.nix
     ./modules/fzf.nix
     ./modules/fastfetch.nix
+  ];
+
+  home.sessionPath = [
+    "$HOME/.npm-global/bin"
   ];
 
   # Let Home Manager install and manage itself.
