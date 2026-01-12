@@ -24,6 +24,8 @@
     vlc
     libreoffice
     telegram-desktop
+    htop
+    btop
   ];
 
   imports = [
@@ -34,6 +36,7 @@
     ./modules/kitty.nix
     ./modules/fzf.nix
     ./modules/fastfetch.nix
+    ./modules/btop.nix
   ];
 
   home.sessionPath = [
