@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   home.username = "hemil";
@@ -16,6 +16,7 @@
     vscode
     nodejs
     postman
+    inputs.zen-browser.packages."${pkgs.system}".default
     wl-clipboard
     fluent-icon-theme
     bibata-cursors

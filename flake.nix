@@ -7,6 +7,7 @@
 			url = "github:nix-community/home-manager/release-25.11";
 			inputs.nixpkgs.follows = "nixpkgs";
     	};
+		zen-browser.url = "github:0xc000022070/zen-browser-flake";
 	};
 
 	outputs =
@@ -32,6 +33,9 @@
 			homeConfigurations = {
        			hemil = home-manager.lib.homeManagerConfiguration {
          		inherit pkgs;
+				extraSpecialArgs = {
+            		inherit inputs;
+            	};
           		modules = [ ./home.nix ];
         		};
       		};
