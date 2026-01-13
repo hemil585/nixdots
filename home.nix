@@ -38,6 +38,7 @@
     ./modules/fzf.nix
     ./modules/fastfetch.nix
     ./modules/btop.nix
+    ./modules/spicetify.nix
   ];
 
   home.sessionPath = [
