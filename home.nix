@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ config, pkgs, pkgs-unstable, inputs, ... }:
 
 {
   home.username = "hemil";
@@ -29,6 +29,7 @@
     btop
     tradingview
     protonvpn-gui
+    pkgs-unstable.nixfmt
   ];
 
   imports = [
