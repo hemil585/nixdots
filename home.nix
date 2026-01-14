@@ -27,6 +27,8 @@
     telegram-desktop
     htop
     btop
+    tradingview
+    protonvpn-gui
   ];
 
   imports = [
