@@ -149,7 +149,7 @@
   users.users.hemil = {
     isNormalUser = true;
     description = "Hemil Patel";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "wireshark" ];
     packages = with pkgs; [
       kdePackages.kate
     #  thunderbird
@@ -170,7 +170,16 @@
     nvtopPackages.full
     pciutils
     distrobox    
+    wireshark
   ];
+
+  programs.wireshark = {
+    enable = true;
+    dumpcap = {
+      enable = true;
+    };
+  };
+
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
