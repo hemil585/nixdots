@@ -29,7 +29,7 @@
     btop
     tradingview
     protonvpn-gui
-    pkgs-unstable.nixfmt
+    nixfmt
   ];
 
   imports = [
