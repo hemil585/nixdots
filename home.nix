@@ -40,6 +40,8 @@
     ./modules/btop.nix
     ./modules/spicetify.nix
     ./modules/git.nix
+    ./modules/vim.nix
+    ./modules/nvim.nix
   ];
 
   home.sessionPath = [

@@ -2,11 +2,11 @@
 {
   programs.git = {
     enable = true;
-    userName = "Hemil Patel";
-    userEmail = "patelhemil585@gmail.com";
-    aliases = { };
-    extraConfig = {
-      init.defaultBranch = "main";
+    settings = {
+        user.name = "Hemil Patel";
+        user.email = "patelhemil585@gmail.com";
+        alias = { };
+        init.defaultBranch = "main";
     };
   };
 }
