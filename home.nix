@@ -39,6 +39,7 @@
     ./modules/fastfetch.nix
     ./modules/btop.nix
     ./modules/spicetify.nix
+    ./modules/git.nix
   ];
 
   home.sessionPath = [
