@@ -51,6 +51,8 @@
     };
   };
 
+  programs.ssh.startAgent = true;
+
   virtualisation.docker = {
   	enable = true;
 	  daemon.settings.features.cdi = true;
