@@ -13,10 +13,14 @@
       theme = spicePkgs.themes.hazy;
       colorScheme = "Base";
       enabledExtensions = with spicePkgs.extensions; [
-        adblockify
-        hidePodcasts
         shuffle
+        hidePodcasts
+        adblock
         beautifulLyrics
+        simpleBeautifulLyrics
+        fullAppDisplay
+        groupSession
+        popupLyrics
       ];
       enabledCustomApps = [
           {
