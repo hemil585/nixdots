@@ -15,7 +15,7 @@
         separator = "";
         size = {
           ndigits = 0;
-          binaryPrefix = "si"; # Moved to correct position
+          binaryPrefix = "si";
         };
         key = {
           width = 4;
@@ -47,6 +47,11 @@
           type = "kernel";
           key = "";
           format = "{1} {2}";
+          keyColor = "32";
+        }
+        {
+          type = "uptime";
+          key = "";
           keyColor = "32";
         }
         "break"

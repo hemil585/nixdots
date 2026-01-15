@@ -36,6 +36,7 @@
     gdu
     kdePackages.filelight
     glib
+    dmidecode
   ];
 
   imports = [
