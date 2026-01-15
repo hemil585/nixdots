@@ -23,15 +23,15 @@
         popupLyrics
       ];
       enabledCustomApps = [
-          {
-            name = "lyrics-plus";
-            src = pkgs.fetchFromGitHub {
-              owner = "spicetify";
-              repo = "cli";
-              rev = "main";
-              sha256 = "bFEr/XNGIOasErZDqz76quhYRoMrrvXJ3388O9I0t+M=";
-            };
-          }
+        {
+          name = "lyrics-plus";
+          src = pkgs.fetchFromGitHub {
+            owner = "spicetify";
+            repo = "cli";
+            rev = "main";
+            sha256 = "bFEr/XNGIOasErZDqz76quhYRoMrrvXJ3388O9I0t+M=";
+          };
+        }
       ];
     };
 }

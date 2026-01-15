@@ -55,7 +55,7 @@
       color17 = "#ff7eb6";
 
       # /usr/local/share/fonts/m/ -> local/share/fonts/m/
-      font_family = "MonoLisa";  
+      font_family = "MonoLisa";
       font_size = "15.5";
       cursor_shape = "beam";
       cursor_blink_interval = 0;

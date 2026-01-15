@@ -1,5 +1,6 @@
-{...}: {
-    programs.fastfetch = {
+{ ... }:
+{
+  programs.fastfetch = {
     enable = true;
     settings = {
       logo = {
@@ -117,5 +118,5 @@
         "break"
       ];
     };
-  };    
+  };
 }

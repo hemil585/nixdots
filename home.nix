@@ -1,10 +1,16 @@
-{ config, pkgs, pkgs-unstable, inputs, ... }:
+{
+  config,
+  pkgs,
+  pkgs-unstable,
+  inputs,
+  ...
+}:
 
 {
   home.username = "hemil";
   home.homeDirectory = "/home/hemil";
 
-  home.stateVersion = "25.11"; 
+  home.stateVersion = "25.11";
 
   nixpkgs.config.allowUnfree = true;
 
