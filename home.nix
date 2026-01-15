@@ -30,6 +30,12 @@
     tradingview
     protonvpn-gui
     nixfmt
+    mission-center
+    lm_sensors
+    gnome-disk-utility
+    gdu
+    kdePackages.filelight
+    glib
   ];
 
   imports = [

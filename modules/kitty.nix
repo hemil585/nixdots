@@ -60,7 +60,7 @@
       cursor_shape = "beam";
       cursor_blink_interval = 0;
 
-      background_opacity = "0.95";
+      background_opacity = "0.90";
       background_blur = "10";
 
       window_padding_width = "10";
