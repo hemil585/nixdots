@@ -36,13 +36,14 @@
     tradingview
     protonvpn-gui
     nixfmt
-    mission-center
+    gnome-system-monitor
     lm_sensors
     gnome-disk-utility
     gdu
     kdePackages.filelight
     glib
     dmidecode
+    cheese
   ];
 
   imports = [
