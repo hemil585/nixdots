@@ -44,6 +44,7 @@
     glib
     dmidecode
     cheese
+    ffmpeg-full
   ];
 
   imports = [
