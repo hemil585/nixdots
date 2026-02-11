@@ -40,11 +40,16 @@
     lm_sensors
     gnome-disk-utility
     gdu
-    kdePackages.filelight
     glib
     dmidecode
     cheese
     ffmpeg-full
+    baobab
+    totem
+    gnome-calculator
+    gnome-calendar
+    gnome-clocks
+    haruna
   ];
 
   imports = [
