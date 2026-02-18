@@ -50,6 +50,7 @@
     gnome-calendar
     gnome-clocks
     haruna
+    cloudflared
   ];
 
   imports = [
