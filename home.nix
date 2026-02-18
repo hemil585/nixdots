@@ -19,7 +19,6 @@
     fastfetch
     fzf
     eza
-    vscode
     nodejs
     postman
     inputs.zen-browser.packages."${pkgs.system}".default
@@ -66,6 +65,7 @@
     ./modules/git.nix
     ./modules/vim.nix
     ./modules/nvim.nix
+    ./modules/vscode.nix
   ];
 
   home.sessionPath = [
