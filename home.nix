@@ -50,6 +50,7 @@
     gnome-clocks
     haruna
     cloudflared
+    brave
   ];
 
   imports = [
