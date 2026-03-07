@@ -51,6 +51,7 @@
     haruna
     cloudflared
     brave
+    imhex
   ];
 
   imports = [
