@@ -52,6 +52,7 @@
     cloudflared
     brave
     imhex
+    redis
   ];
 
   imports = [
