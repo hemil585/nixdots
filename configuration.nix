@@ -152,6 +152,7 @@
   #   ];
   #   allowedUDPPortRanges = allowedTCPPortRanges;
   # };
+  networking.firewall.allowedTCPPorts = [3000 5173 8080 8000];
 
   programs.firefox.enable = true;
 
