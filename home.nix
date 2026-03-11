@@ -53,6 +53,7 @@
     brave
     imhex
     redis
+    bun
   ];
 
   imports = [
