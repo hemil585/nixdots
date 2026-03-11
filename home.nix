@@ -54,6 +54,7 @@
     imhex
     redis
     bun
+    openssl_oqs
   ];
 
   imports = [
