@@ -45,9 +45,9 @@
     ffmpeg-full
     baobab
     totem
-    gnome-calculator
-    gnome-calendar
-    gnome-clocks
+    kdePackages.kcalc
+    kdePackages.korganizer
+    kdePackages.kclock
     haruna
     cloudflared
     brave
