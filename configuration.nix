@@ -81,10 +81,20 @@
 
   hardware.graphics = {
     enable = true;
+    enable32Bit = true;
     extraPackages = with pkgs; [
       intel-media-driver
     ];
   };
+
+  programs.steam = {
+    enable = true;
+    gamescopeSession.enable = true;
+    remotePlay.openFirewall = true;
+    dedicatedServer.openFirewall = true;
+  };
+
+  programs.gamemode.enable = true;
 
   #boot.blacklistedKernelModules = [ "nouveau" "nova_core" ];
 
@@ -167,6 +177,7 @@
     pciutils
     distrobox
     wireshark
+    mangohud
   ];
 
   programs.wireshark = {
