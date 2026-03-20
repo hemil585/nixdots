@@ -55,6 +55,7 @@
     redis
     bun
     openssl_oqs
+    discord
   ];
 
   imports = [
