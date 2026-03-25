@@ -29,7 +29,7 @@
             owner = "spicetify";
             repo = "cli";
             rev = "main";
-            sha256 = "bFEr/XNGIOasErZDqz76quhYRoMrrvXJ3388O9I0t+M=";
+            sha256 = "AQ9/XDBysxgaDcBcLXY0j9d6vOVG2TBaGqTRuHMZp8Y=";
           };
         }
       ];
