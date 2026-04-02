@@ -56,6 +56,7 @@
     bun
     openssl_oqs
     discord
+    uv
   ];
 
   imports = [
