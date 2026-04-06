@@ -57,6 +57,7 @@
     openssl_oqs
     discord
     uv
+    nix-index
   ];
 
   imports = [
