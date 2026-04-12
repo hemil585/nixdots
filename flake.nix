@@ -29,7 +29,7 @@
       nixosConfigurations = {
         nixos = lib.nixosSystem {
           inherit system;
-          modules = [ ./configuration.nix ];
+          modules = [ ./hosts/nixos/configuration.nix ];
         };
       };
 
@@ -40,7 +40,7 @@
             inherit inputs;
             pkgs-unstable = nixpkgs-unstable.legacyPackages.${system};
           };
-          modules = [ ./home.nix ];
+          modules = [ ./modules/home-manager/default.nix ];
         };
       };
     };

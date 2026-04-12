@@ -61,19 +61,19 @@
   ];
 
   imports = [
-    ./modules/fish.nix
-    ./modules/zsh.nix
-    ./modules/bash.nix
-    ./modules/aliases.nix
-    ./modules/kitty.nix
-    ./modules/fzf.nix
-    ./modules/fastfetch.nix
-    ./modules/btop.nix
-    ./modules/spicetify.nix
-    ./modules/git.nix
-    ./modules/vim.nix
-    ./modules/nvim.nix
-    ./modules/vscode.nix
+    ./fish.nix
+    ./zsh.nix
+    ./bash.nix
+    ./aliases.nix
+    ./kitty.nix
+    ./fzf.nix
+    ./fastfetch.nix
+    ./btop.nix
+    ./spicetify.nix
+    ./git.nix
+    ./vim.nix
+    ./nvim.nix
+    ./vscode.nix
   ];
 
   home.sessionPath = [
