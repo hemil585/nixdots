@@ -23,13 +23,24 @@
     let
       lib = nixpkgs.lib;
       system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
+      overlay = final: prev: {
+        hnvim = final.callPackage ./pkgs/nvim { };
+      };
+      pkgs = import nixpkgs {
+        inherit system;
+        overlays = [ overlay ];
+      };
     in
     {
       nixosConfigurations = {
         nixos = lib.nixosSystem {
           inherit system;
-          modules = [ ./hosts/nixos/configuration.nix ];
+          modules = [
+            {
+              nixpkgs.overlays = [ overlay ];
+            }
+            ./hosts/nixos/configuration.nix
+          ];
         };
       };
 

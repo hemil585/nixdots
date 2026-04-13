@@ -1,20 +1,20 @@
-{ ... }:
+{ pkgs, ... }:
 {
-  programs.neovim = {
-    enable = true;
+  home.file = {
+    ".config/nvim" = {
+      recursive = true;
+      source = pkgs.hnvim;
+      force = true;
+    };
+  };
 
-    extraConfig = ''
-      set number
-      set relativenumber
-      set tabstop=2
-      set shiftwidth=2
-      set expandtab
-      set cursorline
-      set ignorecase
-      set smartcase
-      set hlsearch
-      set scrolloff=8
-      set clipboard=unnamedplus
-    '';
+  programs = {
+    neovim = {
+      enable = true;
+      defaultEditor = true;
+      vimAlias = true;
+      withPython3 = true;
+      withNodeJs = true;
+    };
   };
 }
