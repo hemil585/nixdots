@@ -21,6 +21,7 @@
         fullAppDisplay
         groupSession
         popupLyrics
+        spicyLyrics
       ];
       enabledCustomApps = [
         {
