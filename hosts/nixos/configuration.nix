@@ -12,5 +12,6 @@
     ../../modules/nixos/virtualisation.nix
     ../../modules/nixos/system.nix
     ../../modules/nixos/users.nix
+    ../../modules/nixos/fonts.nix
   ];
 }
