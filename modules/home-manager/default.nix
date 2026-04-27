@@ -58,6 +58,7 @@
     discord
     uv
     nix-index
+    obs-studio
   ];
 
   imports = [
