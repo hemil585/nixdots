@@ -60,7 +60,7 @@
           type = "cpu";
           key = "";
           keyColor = "34";
-          format = "{1}";
+          format = "{1} ({3}) @ {7}";
         }
         {
           type = "board";
