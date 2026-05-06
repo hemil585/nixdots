@@ -59,6 +59,7 @@
     uv
     nix-index
     obs-studio
+    azuredatastudio
   ];
 
   imports = [
