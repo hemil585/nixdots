@@ -5,7 +5,7 @@
     settings = {
       logo = {
         type = "kitty-icat";
-        source = "/home/hemil/Downloads/nixos_logo.png";
+        source = ../../assets/icons/nixos_logo.png;
         padding = {
           top = 2;
           left = 5;
