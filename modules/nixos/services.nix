@@ -12,7 +12,7 @@
     enable = true;
 
     keyboards.default = {
-      ids = [ "0001:0001:d6a1a789" ];
+      ids = [ "0001:0001:a33e860f" ];
 
       settings = {
         main = {
